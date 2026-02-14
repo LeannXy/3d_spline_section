@@ -226,6 +226,9 @@ main{
 
 /* responsive hp */
 @media (max-width: 768px){
+    container{
+        padding: 0;
+    }
     header{
         padding: 1rem 0.1rem;
     }
@@ -235,7 +238,7 @@ main{
     }
 
     header h1{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 
     .btn-signing{
@@ -252,9 +255,9 @@ main{
         right: 0;
     }
 
-    .container{
+    .content{
         max-width: 30rem;
-        margin-right: 10%;
+        margin-left: 10%;
     }
 
     .tag-box{
@@ -279,6 +282,7 @@ main{
         }
 
 }
+
 
 
 
