@@ -255,7 +255,7 @@ main{
 
     .content{
         max-width: 30rem;
-        argin-left: 0;
+        margin-left: 0;
     }
 
     .tag-box{
@@ -282,6 +282,7 @@ main{
         }
 
 }
+
 
 
 
