@@ -226,6 +226,10 @@ main{
 
 /* responsive hp */
 @media (max-width: 768px){
+    body{
+        font-size:45%;
+    }
+    
     header{
         padding: 1rem 0.1rem;
     }
@@ -277,4 +281,5 @@ main{
             padding: 0.8rem 2rem;
             font-size: 0.8rem;
         }
+
 }
