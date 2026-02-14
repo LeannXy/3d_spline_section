@@ -226,7 +226,7 @@ main{
 
 /* responsive hp */
 @media (max-width: 768px){
-    container{
+    .container{
         padding: 0;
     }
     header{
@@ -282,6 +282,7 @@ main{
         }
 
 }
+
 
 
 
