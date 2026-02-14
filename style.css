@@ -255,6 +255,7 @@ main{
 
     .content{
         max-width: 30rem;
+        argin-left: 0;
     }
 
     .tag-box{
@@ -271,14 +272,17 @@ main{
         .btn-get-started{
             padding: 0.8rem 1.2rem;
             font-size: 0.8rem;
+            letter-spacing: 0;
         }
     
         .btn-signing-main{
             padding: 0.8rem 2rem;
             font-size: 0.8rem;
+            letter-spacing: 0;
         }
 
 }
+
 
 
 
