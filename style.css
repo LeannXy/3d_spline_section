@@ -226,10 +226,6 @@ main{
 
 /* responsive hp */
 @media (max-width: 768px){
-    body{
-        font-size:45%;
-    }
-    
     header{
         padding: 1rem 0.1rem;
     }
@@ -262,7 +258,7 @@ main{
     }
 
     .tag-box{
-        width: 12rem;
+        width: 80vw;
     }
 
     .content h1{
@@ -283,3 +279,4 @@ main{
         }
 
 }
+
