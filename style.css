@@ -252,7 +252,7 @@ main{
         right: 0;
     }
 
-    .content{
+    .container{
         max-width: 30rem;
         margin-left: 10%;
     }
@@ -279,4 +279,5 @@ main{
         }
 
 }
+
 
