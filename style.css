@@ -258,7 +258,7 @@ main{
     }
 
     .tag-box{
-        width: 80vw;
+        width: 12rem;
     }
 
     .content h1{
@@ -279,5 +279,6 @@ main{
         }
 
 }
+
 
 
