@@ -1,59 +1,336 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Spline Visualization</title>
+    <title>3D Spline - Visualisasi 3D Profesional</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='75' font-size='75' font-weight='bold' fill='%236600c5'>3</text></svg>">
     <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 
 <body>
-    <img class="img-gradient" src="gradient.png" alt="gradient">
-    <div class="layer-blur"></div>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <img class="img-gradient" src="gradient.png" alt="gradient">
+        <div class="layer-blur"></div>
 
-    <div class="container">
-        <header data-aos="fade-down">
-            <h1 class="logo">LEANN</h1>
+        <div class="container">
+            <header data-aos="fade-down">
+                <h1 class="logo">LEANN</h1>
 
-            <nav>
-                <a href="#">HOME</a>
-                <a href="#">FEATURE</a>
-                <a href="#">CONTACT</a>
-                <a href="#">DOCS</a>
-            </nav>
+                <nav>
+                    <a href="#home">HOME</a>
+                    <a href="#features">FITUR</a>
+                    <a href="#about">TENTANG</a>
+                    <a href="#contact">KONTAK</a>
+                </nav>
 
-            <button class="btn-signing">SIGNING</button>
-        </header>
-        <main>
-            <div class="content" data-aos="fade-right">
-                <div class="tag-box">
-                    <div class="tag">INTRUCING &wedbar;</div>
+                <button class="btn-signing">DAFTAR</button>
+            </header>
+            <main>
+                <div class="content" data-aos="fade-right">
+                    <div class="tag-box">
+                        <div class="tag">MENGHADIRKAN &wedbar;</div>
+                    </div>
+
+                    <h1>VISUALISASI 3D <br> YANG MEMUKAU</h1>
+
+                    <p class="description">
+                        Platform inovatif untuk membuat dan menampilkan animasi 3D Spline yang menakjubkan. 
+                        Sempurna untuk desainer, developer, dan kreator konten.
+                    </p>
+
+                    <div class="buttons">
+                        <a href="#features" class="btn-get-started">Pelajari Lebih Lanjut &gt;</a>
+                        <a href="#contact" class="btn-signing-main">Hubungi Kami &gt;</a>
+                    </div>
+                </div>
+            </main>
+        </div>
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.57/build/spline-viewer.js"></script>
+        <spline-viewer data-aos="fade-left" class="robot-3d" url="https://prod.spline.design/rVplLn9oGLq1QjvQ/scene.splinecode"></spline-viewer>
+    </section>
+
+    <!-- FEATURES SECTION -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Fitur Unggulan</h2>
+                <p>Teknologi terdepan untuk kebutuhan visualisasi 3D Anda</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Modelling 3D</h3>
+                    <p>Buat model 3D yang kompleks dan detail dengan tools profesional yang mudah digunakan.</p>
                 </div>
 
-                <h1>EMAIL FOR <br> DEVELOPESRS</h1>
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-wand-magic-sparkles"></i>
+                    </div>
+                    <h3>Animasi Smooth</h3>
+                    <p>Ciptakan animasi yang halus dan natural dengan sistem spline yang canggih.</p>
+                </div>
 
-                <p class="description">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Vero officiis quisquam rem atque praesentium alias natus.
-                </p>
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3>Preview Real-time</h3>
+                    <p>Lihat perubahan secara langsung dengan preview real-time yang responsif.</p>
+                </div>
 
-                <div class="buttons">
-                    <a href="#" class="btn-get-started">Documentation &gt;</a>
-                    <a href="#" class="btn-signing-main">Getstarted &gt;</a>
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Rendering Material</h3>
+                    <p>Aplikasi material, tekstur, dan lighting yang realistis untuk hasil maksimal.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-download"></i>
+                    </div>
+                    <h3>Export Mudah</h3>
+                    <p>Ekspor ke berbagai format populer untuk digunakan di proyek Anda.</p>
+                </div>
+
+                <div class="feature-card" data-aos="fade-up">
+                    <div class="feature-icon">
+                        <i class="fas fa-share-nodes"></i>
+                    </div>
+                    <h3>Kolaborasi Tim</h3>
+                    <p>Bekerja bersama tim dengan fitur kolaborasi cloud yang powerful.</p>
                 </div>
             </div>
-        </main>
-    </div>
-<script type="module" src="https://unpkg.com/@splinetool/viewer@1.12.57/build/spline-viewer.js"></script>
-<spline-viewer data-aos="fade-left" class="robot-3d" url="https://prod.spline.design/rVplLn9oGLq1QjvQ/scene.splinecode"></spline-viewer>
+        </div>
+    </section>
 
+    <!-- ABOUT SECTION -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <h2>Tentang 3D Spline</h2>
+                    <p>
+                        3D Spline adalah platform digital terdepan yang menyediakan solusi lengkap untuk 
+                        visualisasi dan animasi 3D profesional. Kami berkomitmen untuk membuat teknologi 
+                        canggih dapat diakses oleh semua orang, dari pemula hingga profesional.
+                    </p>
+                    <p>
+                        Dengan tim ahli yang berpengalaman lebih dari 10 tahun di industri 3D graphics, 
+                        kami telah membantu ribuan kreator menghasilkan karya yang luar biasa.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10K+</h3>
+                            <p>Pengguna Aktif</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50K+</h3>
+                            <p>Proyek Dibuat</p>
+                        </div>
+                        <div class="stat">
+                            <h3>24/7</h3>
+                            <p>Support Tim</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image" data-aos="fade-left">
+                    <div class="about-placeholder">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <h2>Hubungi Kami</h2>
+                <p>Ada pertanyaan? Kami siap membantu Anda</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="info-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Alamat</h3>
+                        <p>Jl. Kemangi, Kedungmulyo RT 01/ RW 07</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Telepon</h3>
+                        <p>+62 895-696-4531</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <p>khalifah18@gmail.com</p>
+                    </div>
+                    <div class="info-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Jam Layanan</h3>
+                        <p>coming soon</p>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm" data-aos="fade-left">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Nama Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Email Anda" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" id="title" name="title" placeholder="Subjek">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Pesan Anda" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" id="button" class="btn-submit">Kirim Pesan</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section" data-aos="fade-up">
+                    <h3>LEANN</h3>
+                    <p>Platform visualisasi 3D profesional untuk kreator modern.</p>
+                    <div class="social-links">
+                        <a href="#" title="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section" data-aos="fade-up">
+                    <h4>Produk</h4>
+                    <ul>
+                        <li><a href="#features">Fitur</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Download</a></li>
+                        <li><a href="#">Updates</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section" data-aos="fade-up">
+                    <h4>Perusahaan</h4>
+                    <ul>
+                        <li><a href="#about">Tentang</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Karir</a></li>
+                        <li><a href="#">Partners</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section" data-aos="fade-up">
+                    <h4>Dukungan</h4>
+                    <ul>
+                        <li><a href="#">Dokumentasi</a></li>
+                        <li><a href="#">Tutorial</a></li>
+                        <li><a href="#contact">Kontak</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section" data-aos="fade-up">
+                    <h4>Newsletter</h4>
+                    <p>Dapatkan update terbaru langsung ke inbox Anda</p>
+                    <div class="newsletter-form">
+                        <input type="email" placeholder="Email Anda">
+                        <button type="button">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 3D Spline Leann. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Settings</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        // Initialize EmailJS di awal
+        emailjs.init('KTOWQ-WFHDCKZXeJ-');
+
+        AOS.init({
+            duration: 800,
+            easing: 'ease-in-out',
+            once: true
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission dengan EmailJS
+        document.getElementById('contactForm')?.addEventListener('submit', function(e) {
+            e.preventDefault();
+
+            const btn = this.querySelector('.btn-submit');
+            const originalText = btn.textContent;
+            btn.textContent = 'Mengirim...';
+            btn.disabled = true;
+
+            emailjs.sendForm('service_port', 'template_1tberqh', this)
+                .then((response) => {
+                    console.log('SUCCESS!', response.status, response.text);
+                    alert('Terima kasih! Pesan Anda telah dikirim. Tim kami akan menghubungi Anda segera.');
+                    document.getElementById('contactForm').reset();
+                    btn.textContent = originalText;
+                    btn.disabled = false;
+                })
+                .catch((error) => {
+                    console.error('FAILED...', error);
+                    alert('Maaf, ada kesalahan: ' + (error?.text || error?.message || 'Silakan coba lagi'));
+                    btn.textContent = originalText;
+                    btn.disabled = false;
+                });
+        });
+
+        // Newsletter subscription
+        document.querySelector('.newsletter-form button')?.addEventListener('click', function() {
+            const email = document.querySelector('.newsletter-form input').value;
+            if(email) {
+                alert('Terima kasih! Anda telah berlangganan newsletter kami.');
+                document.querySelector('.newsletter-form input').value = '';
+            }
+        });
+    </script>
 </body>
 
 </html>
