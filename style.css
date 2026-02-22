@@ -125,6 +125,7 @@ nav a:hover::after{
     transition: all 0.3s ease;
     cursor: pointer;
     letter-spacing: 0.05em;
+    text-decoration: none;
 }
 
 .btn-signing:hover{
@@ -1113,3 +1114,4 @@ main{
         gap: 0.3rem;
     }
 }
+
