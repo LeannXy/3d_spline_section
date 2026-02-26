@@ -661,7 +661,7 @@ main{
 
 
 /* responsive tablet */
-@media (max-width: 1366px) {
+@media (max-width: 1024px) {
   html {
     font-size: 76%;
   }
@@ -1102,6 +1102,7 @@ main{
         gap: 0.3rem;
     }
 }
+
 
 
 
