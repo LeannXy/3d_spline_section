@@ -660,13 +660,7 @@ main{
 
 
 /* responsive tablet */
-@media (max-width: 1300px){
 
-    .robot-3d{
-        scale: 2;
-        top: 10%;
-    }
-}
 
 /* responsive hp */
 @media (max-width: 768px){
@@ -1100,3 +1094,4 @@ main{
         gap: 0.3rem;
     }
 }
+
