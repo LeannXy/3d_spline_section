@@ -255,8 +255,8 @@ main{
 .robot-3d{
     position: absolute;
     right: 0;
-    margin-top: 10%;
     width: 50%;
+    top:10%;
     height: auto;
 }
 
@@ -670,7 +670,7 @@ main{
 .robot-3d{
 
         scale: 2;
-        right: 0%;
+        right: 0;
     }
 
 
@@ -1109,6 +1109,7 @@ main{
         gap: 0.3rem;
     }
 }
+
 
 
 
