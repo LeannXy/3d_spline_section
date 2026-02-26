@@ -660,7 +660,11 @@ main{
 
 
 /* responsive tablet */
-
+@media (max-width: 1366px) {
+  html {
+    font-size: 76%;
+  }
+}
 
 /* responsive hp */
 @media (max-width: 768px){
@@ -938,7 +942,10 @@ main{
         font-size: 0.8rem;
     }
 
-   
+    .robot-3d{
+        scale: 2;
+    }
+
 
     .features{
         padding: 2rem 0;
@@ -1094,4 +1101,5 @@ main{
         gap: 0.3rem;
     }
 }
+
 
