@@ -255,7 +255,7 @@ main{
 .robot-3d{
     position: absolute;
     right: 0;
-    top: 10%;
+    margin-top: 10%;
     width: 50%;
     height: auto;
 }
@@ -662,10 +662,17 @@ main{
 
 /* responsive tablet */
 @media (max-width: 1024px) {
+    
   html {
     font-size: 76%;
   }
 }
+.robot-3d{
+
+        scale: 2;
+        right: 0%;
+    }
+
 
 /* responsive hp */
 @media (max-width: 768px){
@@ -1102,6 +1109,7 @@ main{
         gap: 0.3rem;
     }
 }
+
 
 
 
