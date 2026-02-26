@@ -51,7 +51,7 @@ body{
     max-width: 1400px;
     margin: 0 auto;
     padding: 0 2rem;
-    position: relative;
+
 }
 
 /* ===== HERO SECTION ===== */
@@ -254,10 +254,9 @@ main{
 
 .robot-3d{
     position: absolute;
-    top: 10%;
-    right: 0%;
+    right: 0;
     width: 50%;
-    height: 100%;
+    height: auto;
 }
 
 
@@ -666,15 +665,9 @@ main{
         padding: 0.8rem 0.1rem;
     }
 
-    .content{
-        margin-top: 85%;
-
-    }
-
     .robot-3d{
-        scale: 1.2;
-        top: 5%;
-        right: 2%;
+        scale: 2;
+        top: 10%;
     }
 }
 
@@ -702,8 +695,8 @@ main{
 
     .robot-3d{
 
-        scale: 0.8;
-        top: -20%;
+        scale: 2;
+        right: 0%;
         width: 100%;
     }
 
@@ -916,8 +909,7 @@ main{
     }
  .robot-3d{
 
-        scale: 0.5;
-        top: -30%;
+        scale: 2;
     }
     .btn-signing{
         padding: 0.5rem 0.8rem;
@@ -955,10 +947,7 @@ main{
         font-size: 0.8rem;
     }
 
-    .robot-3d{
-        min-height: 280px;
-        margin: 1.5rem auto;
-    }
+   
 
     .features{
         padding: 2rem 0;
@@ -1114,4 +1103,3 @@ main{
         gap: 0.3rem;
     }
 }
-
