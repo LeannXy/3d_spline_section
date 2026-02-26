@@ -256,7 +256,7 @@ main{
     position: absolute;
     right: 0;
     width: 50%;
-    top:10vh;
+    top:20vh;
     height: auto;
 }
 
@@ -1109,6 +1109,7 @@ main{
         gap: 0.3rem;
     }
 }
+
 
 
 
